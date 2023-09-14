@@ -1,0 +1,6 @@
+<img [src]="toolCompetence?.iconPath" class="tool-icon"/>
+<div class="progress-bar">
+    <div class="filling-progress-bar" [ngStyle]="{'width': toolCompetence?.percentage + '%'}"></div>
+    <span class="tooltip">{{toolCompetence?.title}}</span>
+</div>
+<span class="percentage-display">{{toolCompetence?.percentage}} %</span>

@@ -1,0 +1,14 @@
+<h3 class="subTitle">Experiences professionnelles</h3>
+<ng-container *ngFor="let experience of experiences">
+    <app-experience-resume [experience]="experience" (selectExperienceEvent)="setDetailVisible($event)"></app-experience-resume>
+</ng-container>
+<br>
+<h3 class="subTitle">Formations</h3>
+<ng-container *ngFor="let formation of formations">
+    <app-formation-resume [formation]="formation"></app-formation-resume>
+</ng-container>
+<br>
+<h3 class="subTitle">Hobbies et centres d’intérêts</h3>
+<ng-container *ngFor="let hobbie of hobbies">
+    <app-hobbie-resume [hobbie]="hobbie"></app-hobbie-resume>
+</ng-container>

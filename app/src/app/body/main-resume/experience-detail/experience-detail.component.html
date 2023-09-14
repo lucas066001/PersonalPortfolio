@@ -1,0 +1,24 @@
+<section class="detailContainer centerChild" (click)="setDetailHidden()">
+    <div class="detailCard">
+        <h3 class="title detailTitle">
+            Zoom sur : {{detail?.title}}
+            <div class="close">X</div>
+        </h3>
+        <p class="detailDescription text" [innerHTML]="detail?.description"></p>
+        <div class="detailGallery" *ngIf="detail?.imgsSrc">
+
+        </div>
+        <div class="detailLangages" *ngIf="detail?.langages">
+            <h3 class="title detailSubtitle">Langages utilisés</h3>
+            <span *ngFor="let label of detail?.langages" class="marginLat">
+                <app-label [label]="label"></app-label>
+            </span>
+        </div>
+        <div class="detailConcepts" *ngIf="detail?.concepts">
+            <h3 class="title detailSubtitle">Concepts abordés</h3>
+            <span *ngFor="let label of detail?.concepts" class="marginLat">
+                <app-label [label]="label"></app-label>
+            </span>
+        </div>
+    </div>
+</section>
