@@ -217,7 +217,7 @@ body{
     transform: scale(.8);
     opacity: 0;
     animation-delay: 1500ms;
-    animation: revealScale 1.5s cubic-bezier(0.77, 0, 0.175, 1) 0.2s forwards;
+    animation: revealScale 1.5s cubic-bezier(0.77, 0, 0.175, 1) 0.8s forwards;
 }
 
 .mainContainer::before{
@@ -977,6 +977,9 @@ li::before{
     .chatContainer {
         right: 10px;
         bottom: 10px;
+    }
+    .introContainer .titleContainer h1 {
+        font-size: 20pt;
     }
 }
 /* end MediaQUeries */
