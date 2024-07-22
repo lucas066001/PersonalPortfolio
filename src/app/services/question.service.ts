@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Questions } from '../constantes/Questions';
+import { Questions } from '../constants/Questions';
 
 @Injectable({
   providedIn: 'root'

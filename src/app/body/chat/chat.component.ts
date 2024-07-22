@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, Component, ElementRef, Renderer2, ViewChild } from '@angular/core';
-import { Questions } from 'src/app/constantes/Questions';
+import { Questions } from 'src/app/constants/Questions';
 import { Message } from 'src/app/models/Message';
 import { QuestionService } from 'src/app/services/question.service';
 

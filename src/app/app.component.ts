@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Meta } from '@angular/platform-browser';
 import { LocalStorageService } from './services/local-storage.service';
-import { AppTimings } from './constantes/AppTimings';
+import { AppTimings } from './constants/AppTimings';
 
 @Component({
   selector: 'app-root',
