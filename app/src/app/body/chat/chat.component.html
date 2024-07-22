@@ -1,5 +1,5 @@
 <div class="chatButton centerChild" (click)="updateChatVisibility()" #chatButton>
-    <img src="./assets/img/logo_couleur.svg" class="iconButton">
+    <img src="assets/img/logo_couleur.svg" class="iconButton">
 </div>
 
 <div class="chatCard" [ngClass]="{'visible': isChatVisible}" #chatCard>
@@ -23,7 +23,7 @@
         <form class="chatForm">
             <input type="text" [(ngModel)]="currentMessage" class="chatTextBox" id="userRequest" name="userRequest" size="10">
             <a class="sendLink clickable" (click)="sendMessage(undefined)">
-                <img class="icon" src="./assets/img/send_icon.svg" />
+                <img class="icon" src="assets/img/send_icon.svg" />
             </a>
         </form>
     </div>
