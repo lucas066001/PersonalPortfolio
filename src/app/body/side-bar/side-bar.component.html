@@ -1,14 +1,13 @@
-
 <app-about-me></app-about-me>
 <header class="sidebar-header">
     <img src="../../../../assets/img/competencies_icon.svg" class="sidebar-icon" />
-    <h4>Compétences</h4>
+    <h4 i18n>Compétences</h4>
 </header>
-<h5 class="sidebar-subtitle">Langues :</h5>
+<h5 class="sidebar-subtitle" i18n>Langues :</h5>
 <img src="../../../../assets/img/langages_chart.svg" class="sidebar-chart" />
-<h5 class="sidebar-subtitle">Langages :</h5>
+<h5 class="sidebar-subtitle" i18n>Langages :</h5>
 <img src="../../../../assets/img/programing_langage_chart.svg" class="sidebar-chart" />
-<h5 class="sidebar-subtitle">Outils :</h5>
-<ng-container *ngFor="let competence of toolCompetencies" >
+<h5 class="sidebar-subtitle" i18n>Outils :</h5>
+<ng-container *ngFor="let competence of toolCompetencies">
     <app-tool-competence class="tool-competence-item" [toolCompetence]="competence"></app-tool-competence>
 </ng-container>

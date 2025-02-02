@@ -8,8 +8,8 @@ import { Label } from 'src/app/models/Label';
 })
 export class HeaderComponent {
   public labels: Label[] = [
-    new Label("Curieux", "#7f08b7"),
-    new Label("Motivé","#3b26c2"),
-    new Label("Investit","rgb(100 51 122)")
+    new Label($localize`Curieux`, "#7f08b7"),
+    new Label($localize`Motivé`, "#3b26c2"),
+    new Label($localize`Investit`, "rgb(100 51 122)")
   ]
 }

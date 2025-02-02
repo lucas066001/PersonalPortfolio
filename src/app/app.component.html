@@ -1,16 +1,17 @@
 <div *ngIf="isAnimationFinished" class="pageContainer" [ngClass]="{'no-scroll': !isScrollActive}">
-  <app-experience-detail *ngIf="isDetailVisible && actualExpId > 0" (hideDetail)="hideDetail()" [idExp]="actualExpId"></app-experience-detail>
+  <app-experience-detail *ngIf="isDetailVisible && actualExpId > 0" (hideDetail)="hideDetail()"
+    [idExp]="actualExpId"></app-experience-detail>
   <section class="headerContainer centerChild">
     <app-header></app-header>
   </section>
   <section class="mainContainer mainReveal">
     <div class="mainTitle centerChild">
       <span class="bracket">&#123;</span>
-      <h1 class="title">Étudiant</h1>
+      <h1 class="title" i18n>Développeur</h1>
       <div>
-        <h2 class="subTitle">Développement web</h2>
+        <h2 class="subTitle" i18n>Architecte</h2>
         <span class="separatorDotted"></span>
-        <h2 class="subTitle">Front-end / Back-end</h2>
+        <h2 class="subTitle" i18n>Logiciel</h2>
       </div>
       <span class="bracket">&#125;</span>
     </div>
@@ -37,20 +38,22 @@
 <section *ngIf="!noAnimation" id="introContainer" class="introContainer">
   <button class="closeButton" (click)="stopAnimation()">X</button>
   <div *ngIf="currentAnimationState == 1" id="titleContainer-1" class="titleContainer">
-    <h1>Bonjour !</h1>
-    <img class="portraitImg" src="./assets/img/hand_salutation_icon.svg" alt="pictogramme salutation"/>
+    <h1 i18n>Bonjour !</h1>
+    <img class="portraitImg" src="./assets/img/hand_salutation_icon.svg" alt="pictogramme salutation" />
   </div>
   <div *ngIf="currentAnimationState == 2" id="titleContainer-2" class="titleContainer">
-    <h1>Bienvenu sur mon portfolio !</h1>
-    <img class="portraitImg" src="./assets/img/portfolio_icon.svg" alt="pictogramme salutation"/>
+    <h1 i18n>Bienvenu sur mon portfolio !</h1>
+    <img class="portraitImg" src="./assets/img/portfolio_icon.svg" alt="pictogramme salutation" />
   </div>
   <div *ngIf="currentAnimationState == 3" id="titleContainer-3" class="titleContainer">
-    <h1>Vous trouverez ici mes <span class="colored-text blue">expériences professionnelles</span> et mon <span class="colored-text">parcours scolaire</span></h1>
-    <img class="portraitImg" src="./assets/img/work_study_icon.svg" alt="pictogramme salutation"/>
+    <h1 i18n>Vous trouverez ici mes <span class="colored-text blue">expériences professionnelles</span> et mon <span
+        class="colored-text">parcours scolaire</span></h1>
+    <img class="portraitImg" src="./assets/img/work_study_icon.svg" alt="pictogramme salutation" />
   </div>
   <div *ngIf="currentAnimationState == 4" id="titleContainer-4" class="titleContainer">
-    <h1>N'hésitez pas à utiliser le <span class="colored-text blue">chatbot</span> en bas à droite pour obtenir mes coordonnées et des <span class="colored-text">informations supplémentaires</span> sur mon profil</h1>
-    <img class="portraitImg" src="./assets/img/light_icon.svg" alt="pictogramme salutation"/>
+    <h1 i18n>N'hésitez pas à utiliser le <span class="colored-text blue">chatbot</span> en bas à droite pour obtenir mes
+      coordonnées et des <span class="colored-text">informations supplémentaires</span> sur mon profil</h1>
+    <img class="portraitImg" src="./assets/img/light_icon.svg" alt="pictogramme salutation" />
   </div>
   <div class="loader"></div>
 </section>

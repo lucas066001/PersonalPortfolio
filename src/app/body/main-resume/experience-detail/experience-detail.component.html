@@ -1,6 +1,6 @@
 <section class="detailContainer centerChild" (click)="setDetailHidden()">
     <div class="detailCard">
-        <h3 class="title detailTitle">
+        <h3 class="title detailTitle" i18n>
             Zoom sur : {{detail?.title}}
             <div class="close">X</div>
         </h3>
@@ -9,13 +9,13 @@
 
         </div>
         <div class="detailLangages" *ngIf="detail?.langages">
-            <h3 class="title detailSubtitle">Langages utilisés</h3>
+            <h3 class="title detailSubtitle" i18n>Langages utilisés</h3>
             <span *ngFor="let label of detail?.langages" class="marginLat">
                 <app-label [label]="label"></app-label>
             </span>
         </div>
         <div class="detailConcepts" *ngIf="detail?.concepts">
-            <h3 class="title detailSubtitle">Concepts abordés</h3>
+            <h3 class="title detailSubtitle" i18n>Concepts abordés</h3>
             <span *ngFor="let label of detail?.concepts" class="marginLat">
                 <app-label [label]="label"></app-label>
             </span>

@@ -9,10 +9,19 @@
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
+      "i18n": {
+        "sourceLocale": "fr-FR",
+        "locales": {
+          "en-US": {
+            "translation": "src/locale/messages.en.xlf"
+          }
+        }
+      },
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "localize": true,
             "outputPath": "dist/personal-portfolio",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -52,6 +61,16 @@
               "extractLicenses": false,
               "sourceMap": true,
               "namedChunks": true
+            },
+            "fr-FR": {
+              "localize": [
+                "fr-FR"
+              ]
+            },
+            "en-US": {
+              "localize": [
+                "en-US"
+              ]
             }
           },
           "defaultConfiguration": "production"
@@ -64,6 +83,12 @@
             },
             "development": {
               "browserTarget": "PersonalPortfolio:build:development"
+            },
+            "fr-FR": {
+              "browserTarget": "PersonalPortfolio:build:fr-FR"
+            },
+            "en-US": {
+              "browserTarget": "PersonalPortfolio:build:en-US"
             }
           },
           "defaultConfiguration": "development"

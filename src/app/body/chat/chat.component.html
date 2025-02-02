@@ -5,12 +5,13 @@
 <div class="chatCard" [ngClass]="{'visible': isChatVisible}" #chatCard>
     <div class="chatCardHeader">
         <div class="icon info"></div>
-        <h5>Une question ?</h5>
+        <h5 i18n>Une question ?</h5>
     </div>
     <div class="chatContent">
         <div class="messageList" #messageListId>
             <ng-container *ngFor="let message of messageList">
-                <span class="chatMessage" (click)="sendMessageFromClick(message.content, message.isClickable)" [ngClass]="{'fromUser': message.isFromUser, 'msgClickable' : message.isClickable}">
+                <span class="chatMessage" (click)="sendMessageFromClick(message.content, message.isClickable)"
+                    [ngClass]="{'fromUser': message.isFromUser, 'msgClickable' : message.isClickable}">
                     {{message.content}}
                 </span>
             </ng-container>
@@ -21,7 +22,8 @@
             </span>
         </div>
         <form class="chatForm">
-            <input type="text" [(ngModel)]="currentMessage" class="chatTextBox" id="userRequest" name="userRequest" size="10">
+            <input type="text" [(ngModel)]="currentMessage" class="chatTextBox" id="userRequest" name="userRequest"
+                size="10">
             <a class="sendLink clickable" (click)="sendMessage(undefined)">
                 <img class="icon" src="./assets/img/send_icon.svg" />
             </a>
