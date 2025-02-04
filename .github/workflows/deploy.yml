@@ -30,4 +30,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
-          npm run ng --deploy --repo="https://github.com/lucas066001/PersonalPortfolio.git" --dir=dist/personal-portfolio/ --base-href=/PersonalPortfolio/ --name=lucas066001 --email=dev.lucas.chapuis@gmail.com
+          npm run ng -- deploy --repo="https://github.com/lucas066001/PersonalPortfolio.git" --dir=dist/personal-portfolio/ --base-href=/PersonalPortfolio/ --name=lucas066001 --email=dev.lucas.chapuis@gmail.com
