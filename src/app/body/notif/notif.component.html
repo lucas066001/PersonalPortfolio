@@ -1,7 +1,6 @@
 <div class="notifButton centerChild" (click)="updateNotifVisibility()" #notifButton>
     <img src="assets/img/notif_icon.svg" class="iconButton notif">
     <span *ngIf="isFirstShow" class="newContentDot"></span>
-
 </div>
 
 <div class="notifCard" [ngClass]="{'visible': isNotifVisible}" #notifCard>

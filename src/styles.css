@@ -654,6 +654,7 @@ li::before {
     right: 0;
     top: 0;
     display: flex;
+    gap: .5em;
     flex-direction: row;
     justify-content: flex-end;
 }

@@ -18,6 +18,7 @@ import { ToolCompetenceComponent } from './body/side-bar/tool-competence/tool-co
 import { NotifComponent } from './body/notif/notif.component';
 import { ExperienceDetailComponent } from './body/main-resume/experience-detail/experience-detail.component';
 import { FormsModule } from '@angular/forms';
+import { LangageToggleComponent } from './body/langage-toggle/langage-toggle.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { FormsModule } from '@angular/forms';
     HobbieResumeComponent,
     AboutMeComponent,
     ToolCompetenceComponent,
-    ExperienceDetailComponent
+    ExperienceDetailComponent,
+    LangageToggleComponent
   ],
   imports: [
     BrowserModule,

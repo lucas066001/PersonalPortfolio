@@ -31,7 +31,7 @@
         <target>Hello!</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">41</context>
+          <context context-type="linenumber">42</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4464940653130230444" datatype="html">
@@ -39,7 +39,7 @@
         <target>Welcome to my portfolio!</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">45</context>
+          <context context-type="linenumber">46</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5795361399486311408" datatype="html">
@@ -49,7 +49,7 @@
         class=&quot;colored-text&quot;&gt;"/>academic background<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">49,50</context>
+          <context context-type="linenumber">50,51</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8408565907353903766" datatype="html">
@@ -57,7 +57,7 @@
         <target>Feel free to use the <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;colored-text blue&quot;&gt;"/>chatbot<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> at the bottom right to get my contact details and <x id="START_TAG_SPAN_1" ctype="x-span_1" equiv-text="&lt;span class=&quot;colored-text&quot;&gt;"/>additional information<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> about my profile</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">54,55</context>
+          <context context-type="linenumber">55,56</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6111591081032972915" datatype="html">
@@ -146,6 +146,30 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/body/header/header.component.ts</context>
           <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1949800099101277248" datatype="html">
+        <source>Languages</source>
+        <target>Langages</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/body/langage-toggle/langage-toggle.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4134147244760971282" datatype="html">
+        <source>Français</source>
+        <target>French</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/body/langage-toggle/langage-toggle.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2479039440687873737" datatype="html">
+        <source>Anglais</source>
+        <target>English</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/body/langage-toggle/langage-toggle.component.html</context>
+          <context context-type="linenumber">18</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4156776965937613801" datatype="html">

@@ -1,0 +1,20 @@
+<div class="notifButton centerChild" (click)="updateLangageNotifVisibility()" #langageToggle>
+    <img [src]="getLanguageIcon()" class="iconButton notif">
+</div>
+
+<div class="notifCard" [ngClass]="{'visible': isLangageNotifVisible}" #langageCard>
+    <div class="notifCardHeader">
+        <img src="assets/img/earth_icon_white.svg" class="icon" />
+        <h5 i18n>Languages</h5>
+    </div>
+    <section class="notifContent">
+        <a class="notifItem clickable" href="https://lucas066001.github.io/PersonalPortfolio/">
+            <img class="notifIcon" src="assets/img/french_flag_icon.svg" />
+            <span i18n>Français</span>
+        </a>
+        <a class="notifItem clickable" href="https://lucas066001.github.io/PersonalPortfolio/en-US/">
+            <img class="notifIcon" src="assets/img/english_flag_icon.svg" />
+            <span i18n>Anglais</span>
+        </a>
+    </section>
+</div>
