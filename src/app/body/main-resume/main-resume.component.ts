@@ -71,15 +71,15 @@ export class MainResumeComponent {
   ]
   public hobbies: Hobbie[] = [
     new Hobbie(
-      "./assets/img/haltere_couleur.png",
+      "assets/img/haltere_couleur.png",
       $localize`Musculation : depuis 3 ans c'est un sport qui me passionne et qui me permet de repousser mes limites.`
     ),
     new Hobbie(
-      "./assets/img/cube.png",
+      "assets/img/cube.png",
       $localize`Modélisation 3D : un mariage entre mathématique, créativité et informatique qui me plaît énormément.`
     ),
     new Hobbie(
-      "./assets/img/gear.png",
+      "assets/img/gear.png",
       $localize`La mécanique automobile me passionne de part l’aspect technique et précis mais aussi par la satisfaction de connaître le fonctionnement d’un système.`
     ),
   ]

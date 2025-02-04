@@ -1,25 +1,25 @@
 <div class="notifButton centerChild" (click)="updateNotifVisibility()" #notifButton>
-    <img src="./assets/img/notif_icon.svg" class="iconButton notif">
+    <img src="assets/img/notif_icon.svg" class="iconButton notif">
     <span *ngIf="isFirstShow" class="newContentDot"></span>
 
 </div>
 
 <div class="notifCard" [ngClass]="{'visible': isNotifVisible}" #notifCard>
     <div class="notifCardHeader">
-        <img src="./assets/img/notif_icon_white.svg" class="icon" />
+        <img src="assets/img/notif_icon_white.svg" class="icon" />
         <h5 i18n>Notifications</h5>
     </div>
     <section class="notifContent">
         <a class="notifItem" target="_blank" href="https://linkedin.com/in/lucas-chapuis-200597213">
-            <img class="notifIcon" src="./assets/img/linkedin_icon.svg" />
+            <img class="notifIcon" src="assets/img/linkedin_icon.svg" />
             <span i18n>Lien linkedin</span>
         </a>
         <a class="notifItem" target="_blank" href="https://github.com/lucas066001">
-            <img class="notifIcon" src="./assets/img/github_icon.svg" />
+            <img class="notifIcon" src="assets/img/github_icon.svg" />
             <span i18n>Lien github</span>
         </a>
         <a class="notifItem" target="_blank" href="mailto:chapuis863@gmail.com">
-            <img class="notifIcon" src="./assets/img/mail_icon.svg" />
+            <img class="notifIcon" src="assets/img/mail_icon.svg" />
             <span i18n>Lien Email</span>
         </a>
     </section>

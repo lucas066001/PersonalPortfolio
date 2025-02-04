@@ -10,7 +10,7 @@
       "sourceRoot": "src",
       "prefix": "app",
       "i18n": {
-        "sourceLocale": "fr-FR",
+        "sourceLocale": "",
         "locales": {
           "en-US": {
             "translation": "src/locale/messages.en.xlf"
@@ -62,11 +62,6 @@
               "sourceMap": true,
               "namedChunks": true
             },
-            "fr-FR": {
-              "localize": [
-                "fr-FR"
-              ]
-            },
             "en-US": {
               "localize": [
                 "en-US"
@@ -83,9 +78,6 @@
             },
             "development": {
               "browserTarget": "PersonalPortfolio:build:development"
-            },
-            "fr-FR": {
-              "browserTarget": "PersonalPortfolio:build:fr-FR"
             },
             "en-US": {
               "browserTarget": "PersonalPortfolio:build:en-US"
@@ -116,6 +108,9 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }
