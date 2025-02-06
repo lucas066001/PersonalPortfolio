@@ -1,15 +1,17 @@
-export class Experience{
-  id:number;
-  title:string;
-  duree:string;
-  domaines:string;
-  competences:string;
+import { Label } from "./Label";
 
-  constructor(giventId:number, givenTitle:string, givenDuree:string, givenDomaines:string, givenCompetences:string) {
-    this.id = giventId;  
+export class Experience {
+  id: number;
+  title: string;
+  duree: Label;
+  domaines: string;
+  competences: string;
+
+  constructor(giventId: number, givenTitle: string, givenDuree: Label, givenDomaines: string, givenCompetences: string) {
+    this.id = giventId;
     this.title = givenTitle;
     this.duree = givenDuree;
     this.domaines = givenDomaines;
     this.competences = givenCompetences;
-    }
+  }
 }

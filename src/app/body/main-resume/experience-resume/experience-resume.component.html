@@ -1,8 +1,7 @@
-<article class="webResult resultClickable" (click)="setExperienceSelected(experience.id)" >
-    <h5 class="title clickable">{{experience.title}}</h5>
-    <span [innerHTML]="experience.duree"></span>
-    <br>
+<article class="webResult resultClickable" (click)="setExperienceSelected(experience.id)">
+    <h5 class="title clickable">{{experience.title}} <app-label class="marginLat"
+            [label]="experience.duree"></app-label></h5>
     <span [innerHTML]="experience.domaines"></span>
     <br>
-    <span [innerHTML]="experience.competences"></span>
+    <span style="color:grey" [innerHTML]="experience.competences"></span>
 </article>

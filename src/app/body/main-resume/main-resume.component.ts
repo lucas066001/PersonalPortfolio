@@ -2,6 +2,7 @@ import { Component, EventEmitter, Output } from '@angular/core';
 import { Experience } from 'src/app/models/Experience';
 import { Formation } from 'src/app/models/Formation';
 import { Hobbie } from 'src/app/models/Hobbie';
+import { Label } from 'src/app/models/Label';
 
 @Component({
   selector: 'app-main-resume',
@@ -15,37 +16,37 @@ export class MainResumeComponent {
     new Experience(
       6,
       $localize`Emploi General Electric (GE Vernova) - 2023/2025`,
-      $localize`Durée : <b>2 ans</b>`,
+      new Label($localize`2 ans`, "#a30cea"),
       $localize`Domaine d'expertise : Microservices, automatisation, client lourd, architecture logiciel, communication haute performance / disponibilité`,
       $localize`Compétences : Devops, Benchmarking, <b>C#</b>/ASP.NET/WPF, C++, TypeScript, <b>MQTT</b>, <b>GRPC</b>, ElastciSearch, Angular`),
     new Experience(
       5,
       $localize`Emploi ARS Data - 2022/2023`,
-      $localize`Durée : <b>1 an</b>`,
+      new Label($localize`1 an`, "#a30cea"),
       $localize`Domaine d'expertise : Développement web, création <b>API fermée</b>, interconnexion d'applications`,
       $localize`Compétences : Sécurité, Devops, <b>ASP.NET</b>, TypeScript, MySQL, Angular, Versioning AzureDevops, UI/UX`),
     new Experience(
       4,
       $localize`Emploi Association Jean Gailhac - 2021/2022`,
-      $localize`Durée : <b>1 an</b>`,
+      new Label($localize`1 an`, "#a30cea"),
       $localize`Domaine d'expertise : Développement \"From scratch\", création Application Web, <b>paiement en ligne</b>, Gestion des données utilisateurs`,
       $localize`Compétences : Autonomie, Organisation, <b>JQUERY/AJAX</b>, Javascript, php, MySQL, Wordpress, Versioning GitHub, Déploiement de solution open source`),
     new Experience(
       3,
       $localize`Emploi entreprise Promété - 2021`,
-      $localize`Durée : <b>2 mois</b>`,
+      new Label($localize`2 mois`, "#7466d3"),
       $localize`Domaine d'expertise : Développement Web, <b>maintenance Application Web</b>, Création de modules`,
       $localize`Compétences : Travail d'équipe, AHAH / AJAX, Javascript, php, <b>MySQL</b>, Drupal, GitLab`),
     new Experience(
       2,
       $localize`Hackathon MMI-2020`,
-      $localize`Durée : <b>1 semaine</b>`,
+      new Label($localize`1 semaine`, "#7466d3"),
       $localize`Domaine d'expertise : <b>Communication</b> et Statistiques`,
       $localize`Compétences : Travail d'équipe, <b>UI/UX</b>, design général, recueil des besoins`),
     new Experience(
       1,
       $localize`Marathon MMI-2020`,
-      $localize`Durée : <b>1 semaine</b>`,
+      new Label($localize`1 semaine`, "#7466d3"),
       $localize`Domaine d'expertise : <b>Développement web</b>, mise en place d'une boutique e-commerce administrable`,
       $localize`Compétences : <b>Déploiement CMS</b>, rédaction cahier des charges, Travail d'équipe, UI/UX`),
   ]

@@ -336,9 +336,9 @@
           <context context-type="linenumber">17</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="2226767284605756434" datatype="html">
-        <source>Durée : &lt;b&gt;2 ans&lt;/b&gt;</source>
-        <target>Lasting : &lt;b&gt;2 years&lt;/b&gt;</target>
+      <trans-unit id="8578526123766963117" datatype="html">
+        <source>2 ans</source>
+        <target>2 years</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/body/main-resume/main-resume.component.ts</context>
           <context context-type="linenumber">18</context>
@@ -368,9 +368,9 @@
           <context context-type="linenumber">17</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="8782522814270959412" datatype="html">
-        <source>Durée : &lt;b&gt;1 an&lt;/b&gt;</source>
-        <target>Lasting : &lt;b&gt;1 year&lt;/b&gt;</target>
+      <trans-unit id="613636786526486939" datatype="html">
+        <source>1 an</source>
+        <target>1 year</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/body/main-resume/main-resume.component.ts</context>
           <context context-type="linenumber">18</context>
@@ -428,9 +428,9 @@
           <context context-type="linenumber">29</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="86492337782644582" datatype="html">
-        <source>Durée : &lt;b&gt;2 mois&lt;/b&gt;</source>
-        <target>Lasting : &lt;b&gt;2 months&lt;/b&gt;</target>
+      <trans-unit id="5174349160143834098" datatype="html">
+        <source>2 mois</source>
+        <target>2 months</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/body/main-resume/main-resume.component.ts</context>
           <context context-type="linenumber">30</context>
@@ -460,9 +460,9 @@
           <context context-type="linenumber">35</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="8709203396466687415" datatype="html">
-        <source>Durée : &lt;b&gt;1 semaine&lt;/b&gt;</source>
-        <target>Lasting : &lt;b&gt;1 week&lt;/b&gt;</target>
+      <trans-unit id="2082437226267105542" datatype="html">
+        <source>1 semaine</source>
+        <target>1 week</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/body/main-resume/main-resume.component.ts</context>
           <context context-type="linenumber">36</context>
