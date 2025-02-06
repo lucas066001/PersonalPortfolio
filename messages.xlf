@@ -133,21 +133,21 @@
         <source>Languages</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/body/langage-toggle/langage-toggle.component.html</context>
-          <context context-type="linenumber">9</context>
+          <context context-type="linenumber">8</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4134147244760971282" datatype="html">
         <source>Français</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/body/langage-toggle/langage-toggle.component.html</context>
-          <context context-type="linenumber">14</context>
+          <context context-type="linenumber">13</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2479039440687873737" datatype="html">
         <source>Anglais</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/body/langage-toggle/langage-toggle.component.html</context>
-          <context context-type="linenumber">18</context>
+          <context context-type="linenumber">17</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4156776965937613801" datatype="html">
@@ -509,28 +509,28 @@
         <source>Notifications</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/body/notif/notif.component.html</context>
-          <context context-type="linenumber">10</context>
+          <context context-type="linenumber">9</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1700250810075690334" datatype="html">
         <source>Lien linkedin</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/body/notif/notif.component.html</context>
-          <context context-type="linenumber">15</context>
+          <context context-type="linenumber">14</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6045942168546524309" datatype="html">
         <source>Lien github</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/body/notif/notif.component.html</context>
-          <context context-type="linenumber">19</context>
+          <context context-type="linenumber">18</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3367262451583090268" datatype="html">
         <source>Lien Email</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/body/notif/notif.component.html</context>
-          <context context-type="linenumber">23</context>
+          <context context-type="linenumber">22</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2861116795835129143" datatype="html">
@@ -595,6 +595,13 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/body/side-bar/side-bar.component.html</context>
           <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="302483427715786901" datatype="html">
+        <source>Désolé, je suis incapable de répondre... Essayez plutôt les questions proposées en introduction.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/constants/Questions.ts</context>
+          <context context-type="linenumber">14</context>
         </context-group>
       </trans-unit>
     </body>

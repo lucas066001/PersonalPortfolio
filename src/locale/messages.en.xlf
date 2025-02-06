@@ -683,6 +683,14 @@
           <context context-type="linenumber">10</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="302483427715786901" datatype="html">
+        <source>Désolé, je suis incapable de répondre... Essayez plutôt les questions proposées en introduction.</source>
+        <target>Sorry I'm unable to respond... Maybe try another question proposed in introduction.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/constants/Questions.ts</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
     </body>
   </file>
 </xliff>

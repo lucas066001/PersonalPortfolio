@@ -11,8 +11,8 @@
         <div class="messageList" #messageListId>
             <ng-container *ngFor="let message of messageList">
                 <span class="chatMessage" (click)="sendMessageFromClick(message.content, message.isClickable)"
-                    [ngClass]="{'fromUser': message.isFromUser, 'msgClickable' : message.isClickable}">
-                    {{message.content}}
+                    [ngClass]="{'fromUser': message.isFromUser, 'msgClickable' : message.isClickable}"
+                    [innerHTML]="message.content">
                 </span>
             </ng-container>
             <span class="chatMessage" *ngIf="isTypingMessage">
