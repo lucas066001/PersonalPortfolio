@@ -7,10 +7,11 @@ import { Experience } from 'src/app/models/Experience';
   styleUrls: ['./experience-resume.component.css']
 })
 export class ExperienceResumeComponent {
-  @Input() experience: Experience = new Experience(0,"","","","");
+  @Input() experience: Experience = new Experience(0, "", "", "", "");
   @Output() selectExperienceEvent = new EventEmitter<number>();
 
-  public setExperienceSelected(idSelected:number){
+  public setExperienceSelected(idSelected: number) {
+    console.log("Experience selected : " + idSelected);
     this.selectExperienceEvent.emit(idSelected);
   }
 }

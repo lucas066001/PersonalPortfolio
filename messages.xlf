@@ -171,85 +171,99 @@
           <context context-type="linenumber">18</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="5195856487173978132" datatype="html">
+        <source>Recherche et développement autour d&apos;une solution d&apos;acquisition de données</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/body/main-resume/experience-detail/experience-detail.component.ts</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7585101794925484870" datatype="html">
+        <source>Les &lt;b&gt;microservices&lt;/b&gt; sont une architecture logicielle qui permet de découper une application en plusieurs services indépendants. Cela permet de &lt;u&gt;faciliter la maintenance&lt;/u&gt;, &lt;u&gt;l&apos;évolutivité&lt;/u&gt; et &lt;u&gt;la réutilisation&lt;/u&gt; de ces services. Dans le cadre de mon travail chez General Electric, j&apos;ai eu l&apos;opportunité de travailler sur un projet de &lt;b&gt;recherche et développement&lt;/b&gt; autour de la mise en place d&apos;une solution d&apos;acquisition de données. Cela a été l&apos;occasion de mettre en place des &lt;u&gt;benchmarks&lt;/u&gt; pour comparer les performances de ce type de solution dans des conditions précises. Afin d&apos;atteindre des objectifs de &lt;u&gt;haute performance&lt;/u&gt; et de &lt;u&gt;disponibilité&lt;/u&gt; j&apos;ai travailler sur des problématiques de &lt;b&gt;répartitions des charges&lt;/b&gt;, de &lt;b&gt;scalabilité&lt;/b&gt;, de gestion des états, le tout dans un contexte de &lt;i&gt;développement à grande échelle&lt;/i&gt; avec la volonté de produire du code &lt;u&gt;maintenable, évolutif et robuste&lt;/u&gt;. Cela a été une expérience très enrichissante qui m&apos;a permis de travailler sur des problématiques très pointues.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/body/main-resume/experience-detail/experience-detail.component.ts</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="965923387290373390" datatype="html">
         <source>Développement d&apos;une API fermée</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/body/main-resume/experience-detail/experience-detail.component.ts</context>
-          <context context-type="linenumber">27</context>
+          <context context-type="linenumber">48</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5034854489135584663" datatype="html">
         <source>Les &lt;b&gt;APIs fermées&lt;/b&gt; permettent le partage de données et/ou de &lt;b&gt;fonctionnalités internes&lt;/b&gt; à une entreprise ou des développeurs (internes ou prestataires). Dans mon cas, l&apos;objectif était de proposer une &lt;u&gt;source de données&lt;/u&gt; pour les applications de nos clients sans que d&apos;autres personnes puissent effectuer des requêtes. C&apos;est donc par le biais d&apos;un &lt;b&gt;&lt;u&gt;token d&apos;identification&lt;/u&gt;&lt;/b&gt; que toutes les demandes sont validées avant d&apos;être traitées. Une &lt;i&gt;optimisation côté application&lt;/i&gt; a été mise en place pour permettre le &lt;u&gt;stockage en cache&lt;/u&gt; et &lt;b&gt;limiter le nombre d&apos;appels réseaux&lt;/b&gt;. Ce fût une expérience très enrichissante.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/body/main-resume/experience-detail/experience-detail.component.ts</context>
-          <context context-type="linenumber">28</context>
+          <context context-type="linenumber">49</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3471083619820752197" datatype="html">
         <source>Architecture n-tiers</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/body/main-resume/experience-detail/experience-detail.component.ts</context>
-          <context context-type="linenumber">43</context>
+          <context context-type="linenumber">64</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7272175382285196672" datatype="html">
         <source>Développement et déploiement d&apos;une application php</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/body/main-resume/experience-detail/experience-detail.component.ts</context>
-          <context context-type="linenumber">48</context>
+          <context context-type="linenumber">69</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4768173946643816515" datatype="html">
         <source>Alternant dans une entreprise n&apos;ayant pas de service informatique, j&apos;ai mené à bien la mise en place d&apos;une &lt;b&gt;application web&lt;/b&gt; du début à la fin. Du &lt;u&gt;recueil des besoins&lt;/u&gt; au serveur de &lt;u&gt;déploiement&lt;/u&gt; en passant par la mise en place d&apos;une solution de &lt;u&gt;versionning&lt;/u&gt;, j&apos;ai pu appréhender toutes les phases d&apos;un projet de développement. La mise en place de &lt;b&gt;repository git, de hook, et de déploiement continu&lt;/b&gt; m&apos;a permis de prendre conscience de l&apos;environnement dans lequel est exécuté le code que je développais. Ce qui aujourd&apos;hui est un véritable atout dans ma vie professionnelle.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/body/main-resume/experience-detail/experience-detail.component.ts</context>
-          <context context-type="linenumber">49</context>
+          <context context-type="linenumber">70</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6647260754450731490" datatype="html">
         <source>Déploiement continu</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/body/main-resume/experience-detail/experience-detail.component.ts</context>
-          <context context-type="linenumber">62</context>
+          <context context-type="linenumber">83</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3593205089569836314" datatype="html">
         <source>Paiement en ligne</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/body/main-resume/experience-detail/experience-detail.component.ts</context>
-          <context context-type="linenumber">64</context>
+          <context context-type="linenumber">85</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6790099877379153225" datatype="html">
         <source>Gestion des données et optimisation de requêtes SQL</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/body/main-resume/experience-detail/experience-detail.component.ts</context>
-          <context context-type="linenumber">69</context>
+          <context context-type="linenumber">90</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8486538875937128953" datatype="html">
         <source>Certaines entreprises receuillent des &lt;b&gt;quantités de données gigantesques&lt;/b&gt;, Promété en fait partie car elle permet aux utilisateur de son &lt;i&gt;logiciel&lt;/i&gt; d&apos;acquérir et de visualiser leur propres &lt;b&gt;données météos&lt;/b&gt;. Cependant, à un certain stade, les &lt;u&gt;bases de données relationnelles&lt;/u&gt; ne sont plus optimales pour la gestion de telles quantités. C&apos;est pourquoi en attendant une transition vers un autre modèle de stockage il fallait penser à &lt;b&gt;optimiser les requêtes d&apos;accès aux données&lt;/b&gt; pour limiter les temps de réponse. Cette expérience m&apos;a fait prendre conscience de l&apos;importance de la &lt;u&gt;sobriété numérique&lt;/u&gt;. C&apos;est n&apos;est pas car une application paraît simpliste et tourne bien qu&apos;il ne faut pas chercher à optimiser son fonctionnement. &lt;u&gt;Jointures&lt;/u&gt;, &lt;u&gt;procédures stockées&lt;/u&gt;, &lt;u&gt;unicité des données&lt;/u&gt;, j&apos;appréhende ces concepts avec une bien meilleure compréhension et un plus grand recul aujourd&apos;hui.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/body/main-resume/experience-detail/experience-detail.component.ts</context>
-          <context context-type="linenumber">70</context>
+          <context context-type="linenumber">91</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6677343810520370306" datatype="html">
         <source>Data optimisation</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/body/main-resume/experience-detail/experience-detail.component.ts</context>
-          <context context-type="linenumber">84</context>
+          <context context-type="linenumber">105</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3150618013449577151" datatype="html">
         <source>Oups, pas encore de détail sur cette fiche, revenez plus tard</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/body/main-resume/experience-detail/experience-detail.component.ts</context>
-          <context context-type="linenumber">89</context>
+          <context context-type="linenumber">110</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/body/main-resume/experience-detail/experience-detail.component.ts</context>
-          <context context-type="linenumber">102</context>
+          <context context-type="linenumber">123</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8211100379726218967" datatype="html">
@@ -273,236 +287,264 @@
           <context context-type="linenumber">12</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="8981484569487063000" datatype="html">
+        <source>Emploi General Electric (GE Vernova) - 2023/2025</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/body/main-resume/main-resume.component.ts</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2226767284605756434" datatype="html">
+        <source>Durée : &lt;b&gt;2 ans&lt;/b&gt;</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/body/main-resume/main-resume.component.ts</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4616253446085702539" datatype="html">
+        <source>Domaine d&apos;expertise : Microservices, automatisation, client lourd, architecture logiciel, communication haute performance / disponibilité</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/body/main-resume/main-resume.component.ts</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5898693261581302025" datatype="html">
+        <source>Compétences : Devops, Benchmarking, &lt;b&gt;C#&lt;/b&gt;/ASP.NET/WPF, C++, TypeScript, &lt;b&gt;MQTT&lt;/b&gt;, &lt;b&gt;GRPC&lt;/b&gt;, ElastciSearch, Angular</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/body/main-resume/main-resume.component.ts</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="1309918714462728404" datatype="html">
         <source>Emploi ARS Data - 2022/2023</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/body/main-resume/main-resume.component.ts</context>
-          <context context-type="linenumber">17</context>
+          <context context-type="linenumber">23</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8782522814270959412" datatype="html">
         <source>Durée : &lt;b&gt;1 an&lt;/b&gt;</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/body/main-resume/main-resume.component.ts</context>
-          <context context-type="linenumber">18</context>
+          <context context-type="linenumber">24</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/body/main-resume/main-resume.component.ts</context>
-          <context context-type="linenumber">24</context>
+          <context context-type="linenumber">30</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3889484437966242666" datatype="html">
         <source>Domaine d&apos;expertise : Développement web, création &lt;b&gt;API fermée&lt;/b&gt;, interconnexion d&apos;applications</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/body/main-resume/main-resume.component.ts</context>
-          <context context-type="linenumber">19</context>
+          <context context-type="linenumber">25</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4860418173446904711" datatype="html">
         <source>Compétences : Sécurité, Devops, &lt;b&gt;ASP.NET&lt;/b&gt;, TypeScript, MySQL, Angular, Versioning AzureDevops, UI/UX</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/body/main-resume/main-resume.component.ts</context>
-          <context context-type="linenumber">20</context>
+          <context context-type="linenumber">26</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3311510330524164939" datatype="html">
         <source>Emploi Association Jean Gailhac - 2021/2022</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/body/main-resume/main-resume.component.ts</context>
-          <context context-type="linenumber">23</context>
+          <context context-type="linenumber">29</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8846954017773459502" datatype="html">
         <source>Domaine d&apos;expertise : Développement &quot;From scratch&quot;, création Application Web, &lt;b&gt;paiement en ligne&lt;/b&gt;, Gestion des données utilisateurs</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/body/main-resume/main-resume.component.ts</context>
-          <context context-type="linenumber">25</context>
+          <context context-type="linenumber">31</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5110576633976137296" datatype="html">
         <source>Compétences : Autonomie, Organisation, &lt;b&gt;JQUERY/AJAX&lt;/b&gt;, Javascript, php, MySQL, Wordpress, Versioning GitHub, Déploiement de solution open source</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/body/main-resume/main-resume.component.ts</context>
-          <context context-type="linenumber">26</context>
+          <context context-type="linenumber">32</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1682969304410972027" datatype="html">
         <source>Emploi entreprise Promété - 2021</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/body/main-resume/main-resume.component.ts</context>
-          <context context-type="linenumber">29</context>
+          <context context-type="linenumber">35</context>
         </context-group>
       </trans-unit>
       <trans-unit id="86492337782644582" datatype="html">
         <source>Durée : &lt;b&gt;2 mois&lt;/b&gt;</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/body/main-resume/main-resume.component.ts</context>
-          <context context-type="linenumber">30</context>
+          <context context-type="linenumber">36</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5249504201303366400" datatype="html">
         <source>Domaine d&apos;expertise : Développement Web, &lt;b&gt;maintenance Application Web&lt;/b&gt;, Création de modules</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/body/main-resume/main-resume.component.ts</context>
-          <context context-type="linenumber">31</context>
+          <context context-type="linenumber">37</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1016510597157421476" datatype="html">
         <source>Compétences : Travail d&apos;équipe, AHAH / AJAX, Javascript, php, &lt;b&gt;MySQL&lt;/b&gt;, Drupal, GitLab</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/body/main-resume/main-resume.component.ts</context>
-          <context context-type="linenumber">32</context>
+          <context context-type="linenumber">38</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2229136347091563705" datatype="html">
         <source>Hackathon MMI-2020</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/body/main-resume/main-resume.component.ts</context>
-          <context context-type="linenumber">35</context>
+          <context context-type="linenumber">41</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8709203396466687415" datatype="html">
         <source>Durée : &lt;b&gt;1 semaine&lt;/b&gt;</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/body/main-resume/main-resume.component.ts</context>
-          <context context-type="linenumber">36</context>
+          <context context-type="linenumber">42</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/body/main-resume/main-resume.component.ts</context>
-          <context context-type="linenumber">42</context>
+          <context context-type="linenumber">48</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1813456874584701739" datatype="html">
         <source>Domaine d&apos;expertise : &lt;b&gt;Communication&lt;/b&gt; et Statistiques</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/body/main-resume/main-resume.component.ts</context>
-          <context context-type="linenumber">37</context>
+          <context context-type="linenumber">43</context>
         </context-group>
       </trans-unit>
       <trans-unit id="797947568721194659" datatype="html">
         <source>Compétences : Travail d&apos;équipe, &lt;b&gt;UI/UX&lt;/b&gt;, design général, recueil des besoins</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/body/main-resume/main-resume.component.ts</context>
-          <context context-type="linenumber">38</context>
+          <context context-type="linenumber">44</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6123678801302923166" datatype="html">
         <source>Marathon MMI-2020</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/body/main-resume/main-resume.component.ts</context>
-          <context context-type="linenumber">41</context>
+          <context context-type="linenumber">47</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7381072528226720583" datatype="html">
         <source>Domaine d&apos;expertise : &lt;b&gt;Développement web&lt;/b&gt;, mise en place d&apos;une boutique e-commerce administrable</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/body/main-resume/main-resume.component.ts</context>
-          <context context-type="linenumber">43</context>
+          <context context-type="linenumber">49</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2466970247820300351" datatype="html">
         <source>Compétences : &lt;b&gt;Déploiement CMS&lt;/b&gt;, rédaction cahier des charges, Travail d&apos;équipe, UI/UX</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/body/main-resume/main-resume.component.ts</context>
-          <context context-type="linenumber">44</context>
+          <context context-type="linenumber">50</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5535686313705088926" datatype="html">
         <source>[En cours] Mastère Architecte logiciel - 2024/ Epitech</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/body/main-resume/main-resume.component.ts</context>
-          <context context-type="linenumber">48</context>
+          <context context-type="linenumber">54</context>
         </context-group>
       </trans-unit>
       <trans-unit id="983350138731609887" datatype="html">
         <source>License APSIO (Analyste Programmeur de Systèmes Informatiques Ouverts) - 2022/ IUT Blagnac</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/body/main-resume/main-resume.component.ts</context>
-          <context context-type="linenumber">52</context>
+          <context context-type="linenumber">58</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3632456865791969605" datatype="html">
         <source>Classement : 1/26, Moyenne générale : 16.56</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/body/main-resume/main-resume.component.ts</context>
-          <context context-type="linenumber">53</context>
+          <context context-type="linenumber">59</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6686444398715377409" datatype="html">
         <source>DUT MMI (Métiers du Multimédia et de l&apos;Internet) - 2020/ IUT Béziers</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/body/main-resume/main-resume.component.ts</context>
-          <context context-type="linenumber">56</context>
+          <context context-type="linenumber">62</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2678747303333272280" datatype="html">
         <source>Classement : 1/63, Moyenne générale : 17.30</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/body/main-resume/main-resume.component.ts</context>
-          <context context-type="linenumber">57</context>
+          <context context-type="linenumber">63</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8889170212769825019" datatype="html">
         <source>BACCALAUREAT SCIENTIFIQUE - 2020/ Lycée Jules Fil Carcassonne</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/body/main-resume/main-resume.component.ts</context>
-          <context context-type="linenumber">60</context>
+          <context context-type="linenumber">66</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7307006943515733701" datatype="html">
         <source>Mention très bien, option science de l&apos;ingénieur, spécialité physique-chimie</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/body/main-resume/main-resume.component.ts</context>
-          <context context-type="linenumber">61</context>
+          <context context-type="linenumber">67</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5626048591566039918" datatype="html">
         <source>Prix de l&apos;excellence - 2019/ Lycée Léonard de Vinci Antibes</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/body/main-resume/main-resume.component.ts</context>
-          <context context-type="linenumber">64</context>
+          <context context-type="linenumber">70</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1907720914162603035" datatype="html">
         <source>Décerné par le Rotary Club International</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/body/main-resume/main-resume.component.ts</context>
-          <context context-type="linenumber">65</context>
+          <context context-type="linenumber">71</context>
         </context-group>
       </trans-unit>
       <trans-unit id="797674431476297952" datatype="html">
         <source>Concours d&apos;éloquence - 2019/ Lycée Léonard de Vinci Antibes</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/body/main-resume/main-resume.component.ts</context>
-          <context context-type="linenumber">68</context>
+          <context context-type="linenumber">74</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1287386795690685830" datatype="html">
         <source>Concours en anglais, propre au lycée, Talks : &quot;The importance of choices&quot;</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/body/main-resume/main-resume.component.ts</context>
-          <context context-type="linenumber">69</context>
+          <context context-type="linenumber">75</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6247574746019092709" datatype="html">
         <source>Musculation : depuis 3 ans c&apos;est un sport qui me passionne et qui me permet de repousser mes limites.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/body/main-resume/main-resume.component.ts</context>
-          <context context-type="linenumber">75</context>
+          <context context-type="linenumber">81</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2462032066631967260" datatype="html">
         <source>Modélisation 3D : un mariage entre mathématique, créativité et informatique qui me plaît énormément.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/body/main-resume/main-resume.component.ts</context>
-          <context context-type="linenumber">79</context>
+          <context context-type="linenumber">85</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5661437941683324593" datatype="html">
         <source>La mécanique automobile me passionne de part l’aspect technique et précis mais aussi par la satisfaction de connaître le fonctionnement d’un système.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/body/main-resume/main-resume.component.ts</context>
-          <context context-type="linenumber">83</context>
+          <context context-type="linenumber">89</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5851560788527570644" datatype="html">

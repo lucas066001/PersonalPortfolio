@@ -13,13 +13,19 @@ export class MainResumeComponent {
 
   public experiences: Experience[] = [
     new Experience(
-      1,
+      6,
+      $localize`Emploi General Electric (GE Vernova) - 2023/2025`,
+      $localize`Durée : <b>2 ans</b>`,
+      $localize`Domaine d'expertise : Microservices, automatisation, client lourd, architecture logiciel, communication haute performance / disponibilité`,
+      $localize`Compétences : Devops, Benchmarking, <b>C#</b>/ASP.NET/WPF, C++, TypeScript, <b>MQTT</b>, <b>GRPC</b>, ElastciSearch, Angular`),
+    new Experience(
+      5,
       $localize`Emploi ARS Data - 2022/2023`,
       $localize`Durée : <b>1 an</b>`,
       $localize`Domaine d'expertise : Développement web, création <b>API fermée</b>, interconnexion d'applications`,
       $localize`Compétences : Sécurité, Devops, <b>ASP.NET</b>, TypeScript, MySQL, Angular, Versioning AzureDevops, UI/UX`),
     new Experience(
-      2,
+      4,
       $localize`Emploi Association Jean Gailhac - 2021/2022`,
       $localize`Durée : <b>1 an</b>`,
       $localize`Domaine d'expertise : Développement \"From scratch\", création Application Web, <b>paiement en ligne</b>, Gestion des données utilisateurs`,
@@ -31,13 +37,13 @@ export class MainResumeComponent {
       $localize`Domaine d'expertise : Développement Web, <b>maintenance Application Web</b>, Création de modules`,
       $localize`Compétences : Travail d'équipe, AHAH / AJAX, Javascript, php, <b>MySQL</b>, Drupal, GitLab`),
     new Experience(
-      4,
+      2,
       $localize`Hackathon MMI-2020`,
       $localize`Durée : <b>1 semaine</b>`,
       $localize`Domaine d'expertise : <b>Communication</b> et Statistiques`,
       $localize`Compétences : Travail d'équipe, <b>UI/UX</b>, design général, recueil des besoins`),
     new Experience(
-      5,
+      1,
       $localize`Marathon MMI-2020`,
       $localize`Durée : <b>1 semaine</b>`,
       $localize`Domaine d'expertise : <b>Développement web</b>, mise en place d'une boutique e-commerce administrable`,

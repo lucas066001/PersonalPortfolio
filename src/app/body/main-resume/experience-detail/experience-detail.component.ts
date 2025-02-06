@@ -23,7 +23,28 @@ export class ExperienceDetailComponent {
 
   private detailsList: Details[] = [
     new Details(
-      1,
+      6,
+      $localize`Recherche et développement autour d'une solution d'acquisition de données`,
+      $localize`Les <b>microservices</b> sont une architecture logicielle qui permet de découper une application en plusieurs services indépendants. Cela permet de <u>faciliter la maintenance</u>, <u>l'évolutivité</u> et <u>la réutilisation</u> de ces services. Dans le cadre de mon travail chez General Electric, j'ai eu l'opportunité de travailler sur un projet de <b>recherche et développement</b> autour de la mise en place d'une solution d'acquisition de données. Cela a été l'occasion de mettre en place des <u>benchmarks</u> pour comparer les performances de ce type de solution dans des conditions précises. Afin d'atteindre des objectifs de <u>haute performance</u> et de <u>disponibilité</u> j'ai travailler sur des problématiques de <b>répartitions des charges</b>, de <b>scalabilité</b>, de gestion des états, le tout dans un contexte de <i>développement à grande échelle</i> avec la volonté de produire du code <u>maintenable, évolutif et robuste</u>. Cela a été une expérience très enrichissante qui m'a permis de travailler sur des problématiques très pointues.`,
+      [
+        "Url",
+        "Url",
+        "Url",
+        "Url",
+      ]
+      , [
+        new Label("Groovy / Java", "#7f08b7"),
+        new Label("C++", "#a30cea"),
+        new Label("Typescript - Angular", "#7f08b7"),
+        new Label("C# - ASP.NET - WPF", "#a30cea"),
+      ],
+      [
+        new Label("MQTT - Pub/Sub scalability", "rgb(100, 82, 222)"),
+        new Label(`GRPC - Full duplex stream`, "#3b26c2"),
+        new Label("Microservices", "rgb(100, 82, 222)"),
+      ]),
+    new Details(
+      5,
       $localize`Développement d'une API fermée`,
       $localize`Les <b>APIs fermées</b> permettent le partage de données et/ou de <b>fonctionnalités internes</b> à une entreprise ou des développeurs (internes ou prestataires). Dans mon cas, l'objectif était de proposer une <u>source de données</u> pour les applications de nos clients sans que d'autres personnes puissent effectuer des requêtes. C'est donc par le biais d'un <b><u>token d'identification</u></b> que toutes les demandes sont validées avant d'être traitées. Une <i>optimisation côté application</i> a été mise en place pour permettre le <u>stockage en cache</u> et <b>limiter le nombre d'appels réseaux</b>. Ce fût une expérience très enrichissante.`,
       [
@@ -44,7 +65,7 @@ export class ExperienceDetailComponent {
         new Label("API REST", "rgb(100, 82, 222)")
       ]),
     new Details(
-      2,
+      4,
       $localize`Développement et déploiement d'une application php`,
       $localize`Alternant dans une entreprise n'ayant pas de service informatique, j'ai mené à bien la mise en place d'une <b>application web</b> du début à la fin. Du <u>recueil des besoins</u> au serveur de <u>déploiement</u> en passant par la mise en place d'une solution de <u>versionning</u>, j'ai pu appréhender toutes les phases d'un projet de développement. La mise en place de <b>repository git, de hook, et de déploiement continu</b> m'a permis de prendre conscience de l'environnement dans lequel est exécuté le code que je développais. Ce qui aujourd'hui est un véritable atout dans ma vie professionnelle.`,
       [
@@ -85,7 +106,7 @@ export class ExperienceDetailComponent {
       ]
     ),
     new Details(
-      4,
+      2,
       $localize`Oups, pas encore de détail sur cette fiche, revenez plus tard`,
       "",
       [
@@ -98,7 +119,7 @@ export class ExperienceDetailComponent {
       undefined
     ),
     new Details(
-      5,
+      1,
       $localize`Oups, pas encore de détail sur cette fiche, revenez plus tard`,
       "",
       [
@@ -116,6 +137,7 @@ export class ExperienceDetailComponent {
     let detailFound: Details = new Details(0, "Une erreur est survenue", "", [], [], []);
 
     this.detailsList.forEach(detail => {
+      console.log(detail.idExperience);
       if (detail.idExperience == id) {
         detailFound = detail;
       }

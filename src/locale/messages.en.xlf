@@ -153,7 +153,7 @@
         <target>Langages</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/body/langage-toggle/langage-toggle.component.html</context>
-          <context context-type="linenumber">9</context>
+          <context context-type="linenumber">8</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4134147244760971282" datatype="html">
@@ -161,7 +161,7 @@
         <target>French</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/body/langage-toggle/langage-toggle.component.html</context>
-          <context context-type="linenumber">14</context>
+          <context context-type="linenumber">13</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2479039440687873737" datatype="html">
@@ -169,7 +169,7 @@
         <target>English</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/body/langage-toggle/langage-toggle.component.html</context>
-          <context context-type="linenumber">18</context>
+          <context context-type="linenumber">17</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4156776965937613801" datatype="html">
@@ -194,6 +194,22 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/body/main-resume/experience-detail/experience-detail.component.html</context>
           <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5195856487173978132" datatype="html">
+        <source>Recherche et développement autour d&apos;une solution d&apos;acquisition de données</source>
+        <target>Research and development for data acquisition solution</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/body/main-resume/experience-detail/experience-detail.component.ts</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7585101794925484870" datatype="html">
+        <source>Les &lt;b&gt;microservices&lt;/b&gt; sont une architecture logicielle qui permet de découper une application en plusieurs services indépendants. Cela permet de &lt;u&gt;faciliter la maintenance&lt;/u&gt;, &lt;u&gt;l&apos;évolutivité&lt;/u&gt; et &lt;u&gt;la réutilisation&lt;/u&gt; de ces services. Dans le cadre de mon travail chez General Electric, j&apos;ai eu l&apos;opportunité de travailler sur un projet de &lt;b&gt;recherche et développement&lt;/b&gt; autour de la mise en place d&apos;une solution d&apos;acquisition de données. Cela a été l&apos;occasion de mettre en place des &lt;u&gt;benchmarks&lt;/u&gt; pour comparer les performances de ce type de solution dans des conditions précises. Afin d&apos;atteindre des objectifs de &lt;u&gt;haute performance&lt;/u&gt; et de &lt;u&gt;disponibilité&lt;/u&gt; j&apos;ai travailler sur des problématiques de &lt;b&gt;répartitions des charges&lt;/b&gt;, de &lt;b&gt;scalabilité&lt;/b&gt;, de gestion des états, le tout dans un contexte de &lt;i&gt;développement à grande échelle&lt;/i&gt; avec la volonté de produire du code &lt;u&gt;maintenable, évolutif et robuste&lt;/u&gt;. Cela a été une expérience très enrichissante qui m&apos;a permis de travailler sur des problématiques très pointues.</source>
+        <target>&lt;b&gt;Microservices&lt;/b&gt; are a software architecture that enables an application to be broken down into several independent services. This &lt;u&gt;facilitates the maintenance&lt;/u&gt;, &lt;u&gt;l&apos;scalability&lt;/u&gt; and reuse of these services. As part of my work at General Electric, I had the opportunity to work on a &lt;b&gt;research and development project&lt;/b&gt; around the implementation of a data acquisition solution. This was an opportunity to set up &lt;u&gt;benchmarks&lt;/u&gt; to compare the performance of this type of solution under specific conditions. In order to achieve the objectives of &lt;b&gt;high performance and availability&lt;/b&gt;, I worked on the issues of &lt;b&gt;load balancing&lt;/b&gt;, &lt;b&gt;scalability and availability&lt;/b&gt;, state management, all in a context of &lt;i&gt;large-scale development&lt;/i&gt; with the aim of producing &lt;u&gt;maintainable, scalable and robust code&lt;/u&gt;. It was a very rewarding experience that enabled me to work on some very specialised issues.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/body/main-resume/experience-detail/experience-detail.component.ts</context>
+          <context context-type="linenumber">28</context>
         </context-group>
       </trans-unit>
       <trans-unit id="965923387290373390" datatype="html">
@@ -310,6 +326,38 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/body/main-resume/main-resume.component.html</context>
           <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8981484569487063000" datatype="html">
+        <source>Emploi General Electric (GE Vernova) - 2023/2025</source>
+        <target>Job at General Electric (GE Vernova) - 2023/2025</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/body/main-resume/main-resume.component.ts</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2226767284605756434" datatype="html">
+        <source>Durée : &lt;b&gt;2 ans&lt;/b&gt;</source>
+        <target>Lasting : &lt;b&gt;2 years&lt;/b&gt;</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/body/main-resume/main-resume.component.ts</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4616253446085702539" datatype="html">
+        <source>Domaine d&apos;expertise : Microservices, automatisation, client lourd, architecture logiciel, communication haute performance / disponibilité</source>
+        <target>Areas of expertise: Microservices, automation, fat client, software architecture, high-performance/availability communication</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/body/main-resume/main-resume.component.ts</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5898693261581302025" datatype="html">
+        <source>Compétences : Devops, Benchmarking, &lt;b&gt;C#&lt;/b&gt;/ASP.NET/WPF, C++, TypeScript, &lt;b&gt;MQTT&lt;/b&gt;, &lt;b&gt;GRPC&lt;/b&gt;, ElastciSearch, Angular</source>
+        <target>Skills : Devops, Benchmarking, &lt;b&gt;C#&lt;/b&gt;/ASP.NET/WPF, C++, TypeScript, &lt;b&gt;MQTT&lt;/b&gt;, &lt;b&gt;GRPC&lt;/b&gt;, ElastciSearch, Angular</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/body/main-resume/main-resume.component.ts</context>
+          <context context-type="linenumber">20</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1309918714462728404" datatype="html">
