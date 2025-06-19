@@ -2,30 +2,6 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="fr-FR" datatype="plaintext" original="ng2.template">
     <body>
-      <trans-unit id="6835247319162710919" datatype="html">
-        <source>Développeur</source>
-        <target>Software</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">10</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="5252272808512615430" datatype="html">
-        <source>Architecte</source>
-        <target>Architect</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">12</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="5268043214079861699" datatype="html">
-        <source>Logiciel</source>
-        <target>Engineer</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">14</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="6754277441068071738" datatype="html">
         <source>Bonjour !</source>
         <target>Hello!</target>
@@ -34,8 +10,8 @@
           <context context-type="linenumber">42</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="4464940653130230444" datatype="html">
-        <source>Bienvenu sur mon portfolio !</source>
+      <trans-unit id="8936065172442062551" datatype="html">
+        <source>Bienvenue sur mon portfolio !</source>
         <target>Welcome to my portfolio!</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
@@ -196,6 +172,160 @@
           <context context-type="linenumber">18</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="6238436525848662396" datatype="html">
+        <source>Segmentation de CT scan pour localiser tumeur et métastases ovariens</source>
+        <target>CT scan segmentation to locate ovarian tumours and metastases</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/body/main-resume/experience-detail/experience-detail.component.ts</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1628446691442796478" datatype="html">
+        <source>
+      &lt;strong&gt;&lt;u&gt;Segmentation de CT Scan – Hackathon PinkCC (Top 4)&lt;/u&gt;&lt;/strong&gt;&lt;br&gt;
+      &lt;em&gt;Imagerie médicale 3D, Deep Learning, travail en équipe international&lt;/em&gt;&lt;br&gt;
+      Participation à un hackathon de haut niveau autour de la &lt;strong&gt;segmentation d’images médicales 3D (CT scan)&lt;/strong&gt; pour détecter tumeurs et métastases ovariennes. 
+      En équipe avec deux étudiants de Stanford et un collègue d’Epitech, nous avons conçu une pipeline complète combinant &lt;strong&gt;réseaux de neurones convolutifs 3D&lt;/strong&gt; 
+      (&lt;code&gt;nnU-Net&lt;/code&gt;), &lt;strong&gt;radiomics&lt;/strong&gt; et &lt;strong&gt;analyse de régions d’intérêt&lt;/strong&gt; sur des volumes complexes. 
+      Expérience approfondie en &lt;strong&gt;prétraitement 3D&lt;/strong&gt;, manipulation de &lt;code&gt;DICOM&lt;/code&gt;/&lt;code&gt;NIfTI&lt;/code&gt;, et en &lt;strong&gt;modélisation par apprentissage profond&lt;/strong&gt; sur données médicales réelles.  
+      &lt;br&gt;
+      Face à des équipes de haut niveau (EPFL, chercheurs en oncologie), nous avons obtenu la &lt;strong&gt;4&lt;sup&gt;e&lt;/sup&gt; place&lt;/strong&gt; du classement.
+      Co-lead technique sur l’architecture du modèle tout en co-gérant un second hackathon en parallèle (WaterScarcity Challenge).
+      &lt;br&gt;
+      &lt;b&gt;Compétences clés :&lt;/b&gt; &lt;code&gt;Deep Learning&lt;/code&gt;, &lt;code&gt;nnUNet&lt;/code&gt;, &lt;code&gt;Radiomics&lt;/code&gt;, &lt;code&gt;3D CNN&lt;/code&gt;, &lt;code&gt;NIfTI&lt;/code&gt;, &lt;code&gt;Python&lt;/code&gt;, &lt;code&gt;Imagerie Médicale&lt;/code&gt;, &lt;code&gt;Leadership&lt;/code&gt;</source>
+        <target>&lt;target&gt;
+&lt;strong&gt;&lt;u&gt;CT Scan Segmentation – PinkCC Hackathon (Top 4)&lt;/u&gt;&lt;/strong&gt;&lt;br&gt;
+&lt;em&gt;3D medical imaging, deep learning, international teamwork&lt;/em&gt;&lt;br&gt;
+Participated in a high-level hackathon focused on &lt;strong&gt;3D CT scan segmentation&lt;/strong&gt; to detect ovarian tumors and metastases. 
+As part of a team with two Stanford students and an Epitech colleague, we designed a full pipeline combining &lt;strong&gt;3D convolutional neural networks&lt;/strong&gt; 
+(&lt;code&gt;nnU-Net&lt;/code&gt;), &lt;strong&gt;radiomics&lt;/strong&gt;, and &lt;strong&gt;ROI analysis&lt;/strong&gt; on complex volumetric data. 
+Hands-on experience with &lt;strong&gt;3D preprocessing&lt;/strong&gt;, &lt;code&gt;DICOM&lt;/code&gt;/&lt;code&gt;NIfTI&lt;/code&gt; handling, and &lt;strong&gt;deep learning modeling&lt;/strong&gt; on real clinical data.  
+&lt;br&gt;
+Faced strong competition from top-tier teams (EPFL, oncology researchers) and secured a &lt;strong&gt;4&lt;sup&gt;th&lt;/sup&gt; place&lt;/strong&gt; finish.
+Acted as co-technical lead for model architecture while managing a second simultaneous hackathon (WaterScarcity Challenge).
+&lt;br&gt;
+&lt;b&gt;Key skills:&lt;/b&gt; &lt;code&gt;Deep Learning&lt;/code&gt;, &lt;code&gt;nnUNet&lt;/code&gt;, &lt;code&gt;Radiomics&lt;/code&gt;, &lt;code&gt;3D CNN&lt;/code&gt;, &lt;code&gt;NIfTI&lt;/code&gt;, &lt;code&gt;Python&lt;/code&gt;, &lt;code&gt;Medical Imaging&lt;/code&gt;, &lt;code&gt;Leadership&lt;/code&gt;
+
+&lt;/target&gt;</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/body/main-resume/experience-detail/experience-detail.component.ts</context>
+          <context context-type="linenumber">28,39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8922181985245540571" datatype="html">
+        <source>Manipulation de données biomédicales</source>
+        <target>Handling biomedical data</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/body/main-resume/experience-detail/experience-detail.component.ts</context>
+          <context context-type="linenumber">53</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5705230829232732300" datatype="html">
+        <source>Analyse d&apos;image 3D</source>
+        <target>3D image analysis</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/body/main-resume/experience-detail/experience-detail.component.ts</context>
+          <context context-type="linenumber">54</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2285461416616565319" datatype="html">
+        <source>Accès à distance et file d&apos;attentes batch</source>
+        <target>Remote access and batch queues</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/body/main-resume/experience-detail/experience-detail.component.ts</context>
+          <context context-type="linenumber">55</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2333957555428128291" datatype="html">
+        <source>Prédictions de flux d&apos;eau</source>
+        <target>Waterflow prediction</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/body/main-resume/experience-detail/experience-detail.component.ts</context>
+          <context context-type="linenumber">59</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="504725418438260699" datatype="html">
+        <source>
+      &lt;strong&gt;&lt;u&gt;Phase 1 - Hackathon WaterScarcity – Prédiction de flux d’eau&lt;/u&gt;&lt;/strong&gt;&lt;br&gt;
+      &lt;em&gt;Analyse de séries temporelles, modélisation hydrologique&lt;/em&gt;&lt;br&gt;
+      Participation à un projet de &lt;strong&gt;modélisation prédictive du débit d’eau&lt;/strong&gt; en milieu hydrologique à partir de &lt;strong&gt;données météorologiques et de sols&lt;/strong&gt; multi-sources. 
+      Mise en œuvre de pipelines de &lt;strong&gt;prétraitement avancé&lt;/strong&gt; (lag features, enrichissement spatial, gestion de données statiques/dynamiques), 
+      construction d’&lt;strong&gt;index sur mesure&lt;/strong&gt; (ex : &lt;code&gt;SnowIndex&lt;/code&gt; combinant altitude, température et précipitations), 
+      et utilisation de &lt;strong&gt;techniques de réduction de dimensionnalité&lt;/strong&gt; (&lt;code&gt;PCA&lt;/code&gt;) sur variables pédologiques.
+      Exploration de modèles de &lt;strong&gt;régression probabiliste par forêts quantiles (&lt;code&gt;QRF&lt;/code&gt;)&lt;/strong&gt; pour générer des intervalles de prédiction.
+      Enrichissement par l’utilisation de modèles tels que &lt;code&gt;GaussianProcessRegressor&lt;/code&gt; et &lt;code&gt;GradientBoosting&lt;/code&gt; avec calibration des intervalles de confiance.
+      &lt;br&gt;    
+
+      &lt;strong&gt;&lt;u&gt;Phase 2 - Hackathon &quot;Gestion de l&apos;eau &amp; Conception de politiques publiques&quot;&lt;/u&gt;&lt;/strong&gt;&lt;br&gt;
+      Participation à un challenge de 3 jours axé sur la &lt;strong&gt;modélisation et l’optimisation de politiques de gestion de l’eau&lt;/strong&gt; à l’aide d’une simulation. 
+      Conception d’un mécanisme complet intégrant &lt;strong&gt;quotas, incitations et réponse adaptative aux crises&lt;/strong&gt;, fondé sur une modélisation comportementale des acteurs du système. 
+      Mise en œuvre d’un &lt;strong&gt;algorithme évolutionnaire&lt;/strong&gt; pour l’optimisation multi-paramètres, intégrant &lt;strong&gt;arbitrage multi-objectifs&lt;/strong&gt; (impact économique vs écologique) 
+      et &lt;strong&gt;respect de contraintes&lt;/strong&gt; (priorité d’accès à l’eau). 
+      Élaboration de stratégies décisionnelles explicables via des &lt;strong&gt;heuristiques interprétables&lt;/strong&gt; et ajustement fin des &lt;strong&gt;systèmes d’amendes et de subventions&lt;/strong&gt; pour favoriser l’apprentissage des acteurs. 
+    </source>
+    <target>&lt;strong&gt;&lt;u&gt;Phase 1 - Hackathon WaterScarcity – Water Flow Prediction&lt;/u&gt;&lt;/strong&gt;&lt;br&gt;
+&lt;em&gt;Time series analysis, hydrological modeling&lt;/em&gt;&lt;br&gt;
+Participation in a &lt;strong&gt;predictive modeling project for water discharge&lt;/strong&gt; in hydrological environments based on multi-source 
+&lt;strong&gt;meteorological and soil data&lt;/strong&gt;. Implementation of &lt;strong&gt;advanced preprocessing pipelines&lt;/strong&gt; (lag features, spatial enrichment, handling of static/dynamic data), 
+construction of &lt;strong&gt;custom indices&lt;/strong&gt; (e.g., &lt;code&gt;SnowIndex&lt;/code&gt; combining altitude, temperature, and precipitation), 
+and application of &lt;strong&gt;dimensionality reduction techniques&lt;/strong&gt; (&lt;code&gt;PCA&lt;/code&gt;) on pedological variables. 
+Exploration of &lt;strong&gt;probabilistic regression models using Quantile Random Forests (&lt;code&gt;QRF&lt;/code&gt;)&lt;/strong&gt; to generate prediction intervals. 
+Enhancement through the use of models such as &lt;code&gt;GaussianProcessRegressor&lt;/code&gt; and &lt;code&gt;GradientBoosting&lt;/code&gt; with confidence interval calibration.
+&lt;br&gt;    
+
+&lt;strong&gt;&lt;u&gt;Phase 2 - Hackathon “Water Management & Public Policy Design”&lt;/u&gt;&lt;/strong&gt;&lt;br&gt;
+Participation in a 3-day challenge focused on &lt;strong&gt;modeling and optimizing water management policies&lt;/strong&gt; through simulation. 
+Design of a comprehensive mechanism integrating &lt;strong&gt;quotas, incentives, and adaptive crisis response&lt;/strong&gt;, 
+based on a behavioral modeling of system stakeholders. Implementation of an &lt;strong&gt;evolutionary algorithm&lt;/strong&gt; for multi-parameter optimization, 
+integrating &lt;strong&gt;multi-objective trade-offs&lt;/strong&gt; (economic vs ecological impact) and &lt;strong&gt;constraint satisfaction&lt;/strong&gt; (e.g., water access priority). 
+Development of explainable decision-making strategies through &lt;strong&gt;interpretable heuristics&lt;/strong&gt; and fine-tuning of 
+&lt;strong&gt;penalty and subsidy systems&lt;/strong&gt; to foster stakeholder learning.
+</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/body/main-resume/experience-detail/experience-detail.component.ts</context>
+          <context context-type="linenumber">60,77</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7700920070391447973" datatype="html">
+        <source>Série temporelles</source>
+        <target>Time series</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/body/main-resume/experience-detail/experience-detail.component.ts</context>
+          <context context-type="linenumber">91</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8150909292881761707" datatype="html">
+        <source>Réduction dimensionnelle</source>
+        <target>Dimensional reduction</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/body/main-resume/experience-detail/experience-detail.component.ts</context>
+          <context context-type="linenumber">92</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2554708970545347724" datatype="html">
+        <source>Clustering et aggrégation de données</source>
+        <target>Data clustering and aggregation</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/body/main-resume/experience-detail/experience-detail.component.ts</context>
+          <context context-type="linenumber">93</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5233217532872166121" datatype="html">
+        <source>Algorithme d&apos;optimisation d&apos;apprentissage</source>
+        <target>Optimisation learning algorithm</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/body/main-resume/experience-detail/experience-detail.component.ts</context>
+          <context context-type="linenumber">94</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6906260840429590799" datatype="html">
+        <source>Modèles d&apos;apprentissage ouvert</source>
+        <target>Glassbox models</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/body/main-resume/experience-detail/experience-detail.component.ts</context>
+          <context context-type="linenumber">95</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="5195856487173978132" datatype="html">
         <source>Recherche et développement autour d&apos;une solution d&apos;acquisition de données</source>
         <target>Research and development for data acquisition solution</target>
@@ -326,6 +456,70 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/body/main-resume/main-resume.component.html</context>
           <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3139483597125097576" datatype="html">
+        <source> Pinkcc.Challenge (SIRIC Montpellier Cancer) - avril 2025</source>
+        <target> Pinkcc.Challenge (SIRIC Montpellier Cancer) - april 2025</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/body/main-resume/main-resume.component.ts</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8861567506810935709" datatype="html">
+        <source>3 mois</source>
+        <target>3 months</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/body/main-resume/main-resume.component.ts</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3182681279222985588" datatype="html">
+        <source>Domaine d&apos;expertise :  Analyse d&apos;images, vision par ordinateur, CNN, Unet, radiomics</source>
+        <target>Areas of expertise: Image analysis, computer vision, CNN, Unet, radiomics</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/body/main-resume/main-resume.component.ts</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2396648478232801075" datatype="html">
+        <source>Compétences : Developper un modèle de segmentation d&apos;image tri-dimensionelle pour assister la détection de tumeur et méthastases.</source>
+        <target>Skills: Develop a three-dimensional image segmentation model to assist in the detection of tumours and metastases.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/body/main-resume/main-resume.component.ts</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5790224002075863090" datatype="html">
+        <source>WaterScarcity.Hackathon (Capgemini) - mai 2025</source>
+        <target>WaterScarcity.Hackathon (Capgemini) - may 2025</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/body/main-resume/main-resume.component.ts</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8031846966809014823" datatype="html">
+        <source>4 mois</source>
+        <target>4 months</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/body/main-resume/main-resume.component.ts</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6974232594718894257" datatype="html">
+        <source>Domaine d&apos;expertise : Analyse de séries temporelles, arbres de décisions, visualisation de données </source>
+        <target>Areas of expertise: Time series analysis, decision trees, data visualisation</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/body/main-resume/main-resume.component.ts</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+            <trans-unit id="8228021769773311177" datatype="html">
+        <source>Compétences : Developper un modèle pour prédire les débits d&apos;eau sur plusieurs rivières et bassins basé sur des données statiques spatio-temporelle et historiques de capteurs.</source>
+        <target>Skills: Develop a model to predict water flows in several rivers and basins based on static spatio-temporal and historical sensor data.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/body/main-resume/main-resume.component.ts</context>
+          <context context-type="linenumber">27</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8981484569487063000" datatype="html">
@@ -512,12 +706,36 @@
           <context context-type="linenumber">44</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="5535686313705088926" datatype="html">
-        <source>[En cours] Mastère Architecte logiciel - 2024/ Epitech</source>
-        <target>[Currently] Master's in Software Architecture - 2024/ Epitech</target>
+      <trans-unit id="3054754071301294622" datatype="html">
+        <source> Machine learning in Python with scikit-learn - 2024/ France Université Numérique</source>
+        <target> Machine learning in Python with scikit-learn - 2024/ France Université Numérique</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/body/main-resume/main-resume.component.ts</context>
-          <context context-type="linenumber">48</context>
+          <context context-type="linenumber">67</context>
+        </context-group>
+      </trans-unit>
+            <trans-unit id="7617976031098547440" datatype="html">
+        <source>Accédez au token de certification &lt;a target=&quot;_blank&quot; href=&quot;https://openbadgefactory.com/v1/assertion/db2ebffb91aa1e64c27090cf3feaf3e99dad3700&quot;&gt;en cliquant ici&lt;/a&gt;</source>
+        <target>Access certification token by &lt;a target=&quot;_blank&quot; href=&quot;https://openbadgefactory.com/v1/assertion/db2ebffb91aa1e64c27090cf3feaf3e99dad3700&quot;&gt;clicking here&lt;/a&gt;</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/body/main-resume/main-resume.component.ts</context>
+          <context context-type="linenumber">68</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4781174020394796717" datatype="html">
+        <source>Mastère Architecte logiciel - 2024/ Epitech</source>
+        <target>Master of Science Software Architect - 2024/ Epitech</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/body/main-resume/main-resume.component.ts</context>
+          <context context-type="linenumber">71</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3445290771046898955" datatype="html">
+        <source>Classement : 1/41, GPA : A+</source>
+        <target>Ranking : 1/41, GPA : A+</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/body/main-resume/main-resume.component.ts</context>
+          <context context-type="linenumber">72</context>
         </context-group>
       </trans-unit>
       <trans-unit id="983350138731609887" datatype="html">

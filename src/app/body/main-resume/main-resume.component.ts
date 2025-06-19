@@ -13,7 +13,19 @@ export class MainResumeComponent {
   @Output() displayDetail = new EventEmitter<number>();
 
   public experiences: Experience[] = [
-    new Experience(
+  new Experience(
+      8,
+      $localize` Pinkcc.Challenge (SIRIC Montpellier Cancer) - avril 2025`,
+      new Label($localize`3 mois`, "#7466d3"),
+      $localize`Domaine d'expertise :  Analyse d'images, vision par ordinateur, CNN, Unet, radiomics`,
+      $localize`Compétences : Developper un modèle de segmentation d'image tri-dimensionelle pour assister la détection de tumeur et méthastases.`),  
+  new Experience(
+    7,
+    $localize`WaterScarcity.Hackathon (Capgemini) - mai 2025`,
+    new Label($localize`4 mois`, "#7466d3"),
+    $localize`Domaine d'expertise : Analyse de séries temporelles, arbres de décisions, visualisation de données `,
+    $localize`Compétences : Developper un modèle pour prédire les débits d'eau sur plusieurs rivières et bassins basé sur des données statiques spatio-temporelle et historiques de capteurs.`),  
+  new Experience(
       6,
       $localize`Emploi General Electric (GE Vernova) - 2023/2025`,
       new Label($localize`2 ans`, "#a30cea"),
@@ -52,8 +64,12 @@ export class MainResumeComponent {
   ]
   public formations: Formation[] = [
     new Formation(
-      $localize`[En cours] Mastère Architecte logiciel - 2024/ Epitech`,
-      ""
+      $localize` Machine learning in Python with scikit-learn - 2024/ France Université Numérique`,
+      $localize`Accédez au token de certification <a target=\"_blank\" href=\"https://openbadgefactory.com/v1/assertion/db2ebffb91aa1e64c27090cf3feaf3e99dad3700\">en cliquant ici</a>`
+    ),
+    new Formation(
+      $localize`Mastère Architecte logiciel - 2024/ Epitech`,
+      $localize`Classement : 1/41, GPA : A+`
     ),
     new Formation(
       $localize`License APSIO (Analyste Programmeur de Systèmes Informatiques Ouverts) - 2022/ IUT Blagnac`,
