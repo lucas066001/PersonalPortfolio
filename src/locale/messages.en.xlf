@@ -901,9 +901,9 @@ Development of explainable decision-making strategies through &lt;strong&gt;inte
           <context context-type="linenumber">17</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="3992761092806684941" datatype="html">
-        <source>Âge : 20 ans</source>
-        <target>Age: 20 years old</target>
+      <trans-unit id="541172856058277701" datatype="html">
+        <source><x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>Âge : <x id="INTERPOLATION" equiv-text="{{ age }}"/> ans<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/></source>
+        <target><x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>Age : <x id="INTERPOLATION" equiv-text="{{ age }}"/> years old<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/body/side-bar/about-me/about-me.component.html</context>
           <context context-type="linenumber">20</context>
